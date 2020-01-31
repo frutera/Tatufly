@@ -34,8 +34,21 @@
           <td><input type="LAST NAME" name="LAST NAME" id="LAST NAME"></td>
         </tr>
         <tr>
+          <td><label for="CURRENT TOWN">CURRENT TOWN:</label>
+          <select name="City" id="City">
+            <option value="Port Moresby">Port Moresby</option>
+            <option value="Lae">Lae</option>
+            <option value="Kokopo">Kokopo</option>
+            <option value="Manus">Manus</option>
+            <option value="Madang">Madang</option>
+          <tr></td>
+        </tr>
           <td><label for="HOME PROVINCE">HOME PROVINCE:</label></td>
           <td><input type="HOME PROVINCE" name="HOME PROVINCE" id="HOME PROVINCE"></td>
+        </tr>
+        <tr>
+          <td><label for="CURRENT ADDRESS">CURRENT ADDRESS:</label></td>
+          <td><input type="CURRENT ADDRESS" name="CURRENT ADDRESS" id="CURRENT ADDRESS"></td>
         </tr>
         <tr>
           <td><label for="EMAIL ID">EMAIL ID:</label></td>
@@ -45,10 +58,13 @@
           <td><label for="OCCUPATION">OCCUPATION:</label></td>
           <td><input type="OCCUPATION" name="OCCUPATION" id="OCCUPATION"></td>
         </tr>
-        <br>
         <tr>
           <td><label for="LAST SCHOOL ATTENDED">LAST SCHOOL ATTENDED:</label></td>
           <td><input type="LAST SCHOOL ATTENDED" name="LAST SCHOOL ATTENDED" id="LAST SCHOOL ATTENDED"></td>
+        </tr>
+        <tr>
+          <td><label for="COURSE OF STUDY">COURSE OF STUDY:</label></td>
+          <td><input type="COURSE OF STUDY" name="COURSE OF STUDY" id="COURSE OF STUDY"></td>
         </tr>
         <tr>
           <td><label for="PHONE NO">PHONE NO:</label></td>
@@ -60,24 +76,33 @@
             <td><input type="USERNAME" name="USERNAME" id="USERNAME"></td>
             </tr>
             <br>
-            <tr>
-              <td><label for="PASSWORD">PASSWORD:</label></td>
-              <td><input type="PASSWORD" name="PASSWORD" id="PASSWORD"></td>
-              </tr>
       </table>
       <br>
-      <h5>gender</h5>
+      <h5>gradings</h5>
+        <td><label for="MATHS">MATHS:</label></td>
+        <select name="grading" id="stars">
+          <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+          <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+          <option value="⭐⭐⭐">⭐⭐⭐</option>
+          <option value="⭐⭐">⭐⭐</option>
+          <option value="⭐">⭐</option>
+      <br>
+      <br>
+            <h5>gender</h5>
       <input type="radio" name="gemder" value="male">
       <label for="male">Male</label>
       <input type="radio" name="gender" value="female">
       <label for="female">Female</label>
-            <br>
-            <br>
-            <h5>Hobbies</h5>
+      <br>
+            <h5>Fav sports</h5>
       <input type="checkbox" name="sports" value="soccer">
       <label for="soccer">Soccer</label>
       <input type="checkbox" name="sports" value="cricket">
       <label for="cricket">Cricket</label>
+      <input type="checkbox" name="sports" value="rugby">
+      <label for="rugby">rugby</label>
+      <input type="checkbox" name="sports" value="rugby">
+      <label for="netnall">netball</label>
       <br>
       <h5>select file</h5>
       <label for="file-select">Upload</label>
@@ -85,13 +110,9 @@
       <br>
       <br>
       <label for="address">Address</label>
-      <textarea name=address rows="10" cols="80"></textarea>
+      <textarea name=address rows="5" cols="80"></textarea>
       <br>
-      <label for="city">City:</label>
-      <select name="City" id="City">
-        <option value="Port Moresby">Port Moresby</option>
-        <br>
-        <br>
+      <br>
         <input type="submit" value="submit">
         <input type="reset" value="reset">
 
